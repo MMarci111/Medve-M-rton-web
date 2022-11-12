@@ -20,7 +20,7 @@ ul .maeci {
     background-color: brown;
   }
   
-  li .maeci{
+  li {
     float: left;
   }
   
