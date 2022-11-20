@@ -39,4 +39,44 @@ ul .marci {
   .active {
     background-color: purple;
   }
-  
+
+.tavasz {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  float: left;
+  transition: 1s;
+}
+.tel {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  clear: both;
+  transition: 1s;
+}
+.osz {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  clear: both;
+  transition: 1s; 
+}
+.nyar {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  clear: both;
+  transition: 1s;
+}
+.tavasz :hover {
+  transform: scale(1.1);
+}
+.tel :hover {
+  transform: scale(1.1);
+}
+.osz :hover {
+  transform: scale(1.1);
+}
+.nyar :hover {
+  transform: scale(1.1);
+}
