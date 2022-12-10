@@ -1,7 +1,7 @@
 body {
-    color: aquamarine;
+    color: red;
     font-family: 'Times New Roman', Times, serif;
-    background-color: darkgoldenrod;
+    background-color: black;
 }
 h1 h2 h3 h4 h5 {
     color: black
@@ -11,34 +11,46 @@ a:any-link{
     color: blue;
 }
 
-ul .marci {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: none;
-    background-color: brown;
-  
+.marci {
+  background-color: black;
   }
   
-  li .medve{
-    float: left;
+.medve{
+   background-color: black;
+  }
+
+.fooldal {
+    background-color: white;
   }
   
-  li a {
-    display: block;
-    color: darkkhaki;
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
+.tartalom {
+    padding: o 10px;
   }
   
-  li a:hover:not(.active) {
-    background-color: pink;
-  }
-  
-  .active {
-    background-color: purple;
-  }
+.cimke ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+.cimke li {
+  float: left;
+}
+
+.cimke li a:any-link{
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.cimke li a:hover:not(.medve) {
+  background-color: black;
+}
+
 
 .tavasz {
   border: 1px solid black;
@@ -83,6 +95,6 @@ ul .marci {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: purple;
-  color: white;
+  background-color: red;
+  color: yellow;
 }
