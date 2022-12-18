@@ -51,6 +51,10 @@ a:any-link{
   background-color: black;
 }
 
+.div-hover {
+  width: 200px;
+  border: 1px solid black;
+}
 
 .tavasz {
   border: 1px solid black;
@@ -58,6 +62,7 @@ a:any-link{
   height: 200px;
   float: left;
   transition: 1s;
+  border-radius: 5%;
 }
 .tel {
   border: 1px solid black;
@@ -65,6 +70,7 @@ a:any-link{
   height: 200px;
   clear: both;
   transition: 1s;
+  border-radius: 5%;
 }
 .osz {
   border: 1px solid black;
@@ -72,6 +78,7 @@ a:any-link{
   height: 200px;
   clear: both;
   transition: 1s; 
+  border-radius: 5%;
 }
 .nyar {
   border: 1px solid black;
@@ -79,6 +86,7 @@ a:any-link{
   height: 200px;
   clear: both;
   transition: 1s;
+  border-radius: 5%;
 }
 .tavasz :hover {
   transform: scale(1.1);
