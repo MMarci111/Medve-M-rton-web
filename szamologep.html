@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+<style>
+    fieldset {
+        background-color: red;
+        opacity: 65%;
+    }
+    legend {
+        color: black;
+        background-color: yellow;
+        border: 1px solid black;
+        
+    }
+</style>   
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <table width="1000" border="0" cellpadding="0" align="center" class="marci">
+        <tr>
+            <td class="cimke">
+                <ul>
+                    <li><a href="index.html">Medve Márton</a></li>
+                    <li><a href="keplink.html">Itt a képlink</a></li>
+                    <li><a href="lista.html">Itt vannak a listák</a></li>
+                    <li><a href="tablazat.html">Itt van az órarendem</a></li>
+                    <li><a href="urlap.html">Itt van az Űrlapom</a></li>
+                    <li><a href="div.html">4 évszak</a></li>
+                    <li><a class="medve"  href="szamologep.html">Számológép</a></li>
+                    <li><a href="index2.html">Reszponzív oldalak</a></li>
+                </ul>
+            </td>
+        </tr>
+    <fieldset>
+        <legend>Számológép</legend>
+        <form action="javascript:void(0)">
+            <input type="number" value="szam" id="a" placeholder="szám1">.
+            <input type="number" value="szam" id="b" placeholder="szám2">=
+            <input type="number" name="eredmeny" id="c" readonly placeholder="eredmeny">
+            <br><br>
+            <input type="button" value="+" onclick="ad()">
+            <input type="button" value="-" onclick="kiv()">
+            <input type="button" value="*" onclick="szor()">
+            <input type="button" value="/" onclick="oszt()">
+            <input type="reset" value="delete">
+        </form>
+    </fieldset>
+    <script>
+        function ad() {
+            c.value = Number(a.value) + Number(b.value)
+        }
+        function kiv() {
+            c.value = Number(a.value) - Number(b.value)
+        }
+        function szor() {
+            c.value = Number(a.value) * Number(b.value)
+        }
+        function oszt() {
+            c.value = Number(a.value) / Number(b.value)
+        }
+    </script>
+
+<tr>
+    <td>
+        <hr>
+        <footer>
+            <h2>Készítette:Medve Márton</h2>
+          <a href="medvem@kkszki.hu">Email címem</a>
+        </footer>
+    </td>
+</tr>    
+</body>
+</html>
