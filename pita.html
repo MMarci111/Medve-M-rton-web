@@ -94,10 +94,10 @@
                     c.value = Math.sqrt((a.value*a.value)+(b.value*b.value));
                 }
                 else if (a.value != 0 && c.value != 0) {
-                    b.value = Math.sqrt((a.value*a.value)+(c.value*c.value));
+                    b.value = Math.sqrt((c.value*c.value)-(a.value*a.value));
                 }
                 else if (b.value != 0 && c.value != 0) {
-                    b.value = Math.sqrt((b.value*b.value)+(c.value*c.value));
+                  a.value = Math.sqrt((c.value*c.value)-(b.value*b.value));
                 }
             }
             function toroles() {
